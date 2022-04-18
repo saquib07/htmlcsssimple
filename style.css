@@ -1,0 +1,323 @@
+/*
+Common Area CSS 
+*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+:root {
+  --purple: #5f27cd;
+  --light_purple: #f4eeff;
+  --padding_lg: 45px 0;
+  --padding_sm: 10px 0;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  line-height: 1.3em;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0 0 15px;
+}
+nav {
+  font-family: "Oswald", sans-serif;
+}
+.container {
+  width: 96%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+/* Top header area styling */
+#top_header_area {
+  background: var(--purple);
+  /* padding: 10px 0; */
+  padding: var(--padding_sm);
+  color: #fff;
+}
+
+#top_header_area .container {
+  display: flex;
+}
+.contact_info {
+  flex-basis: 60%;
+  display: flex;
+  padding-top: 6px;
+}
+
+.contact_info p {
+  margin-right: 35px;
+  margin-bottom: 0;
+}
+
+.contact_info i {
+  margin-right: 8px;
+}
+
+.social_area {
+  flex-basis: 40%;
+}
+
+.social_area ul {
+  margin: 0;
+  padding: o;
+  list-style: none;
+  text-align: right;
+}
+
+.social_area li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social_area a {
+  background: #fff;
+  color: #262626;
+  display: block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.social_area a:hover {
+  background: var(--light_purple);
+}
+.btn {
+  color: #fff;
+  background: var(--purple);
+  padding: 12px 35px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #262626;
+}
+
+/* Mobile Menu style  */
+.slicknav_menu {
+  background: none;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.slicknav_menu .slicknav_menutxt {
+  display: none;
+}
+.slicknav_menu .slicknav_icon {
+  margin: 0;
+}
+.slicknav_btn {
+  background: #262626;
+}
+.slicknav_nav {
+  position: fixed;
+  width: 60%;
+  left: 0;
+  top: 0;
+  background: #262626;
+}
+
+/* Main header area style  */
+#main_head {
+  width: 100%;
+  padding: 10px 0;
+}
+
+#main_head .container {
+  display: flex;
+}
+
+.logo_area {
+  padding: 10px 0;
+  flex-basis: 20%;
+}
+
+/* Main Menu area style */
+#main_menu {
+  flex-basis: 80%;
+  margin-top: 15px;
+}
+
+#main_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+#main_menu li {
+  display: inline-block;
+  margin-right: 10px;
+  /* margin-left: 10px; */
+}
+#main_menu a {
+  color: #262626;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: block;
+}
+#main_menu a:hover {
+  background: var(--purple);
+  color: #fff;
+}
+/* Banner Area styling */
+#banner_area {
+  background: var(--light_purple);
+  padding: var(--padding_lg);
+}
+#banner_area .container {
+  display: flex;
+  align-items: center;
+}
+.banner_text {
+  flex-basis: 40%;
+  order: 1;
+}
+.banner_text h2 {
+  font-size: 35px;
+}
+.banner_image {
+  flex-basis: 60%;
+  order: 2;
+}
+/* Service area style 
+ */
+#service_area {
+  padding: var(--padding_lg);
+}
+#service_area .container.title {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#service_area .container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#service_area h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+#service_area h3 {
+  font-size: 25px;
+  /* margin-bottom: 20px; */
+}
+.child_service {
+  padding: 20px;
+  border: 1px solid rgb(236, 233, 233);
+  box-shadow: 0 0 10px rgb(236, 233, 233);
+  flex-basis: 32%;
+}
+
+.child_service i {
+  color: var(--purple);
+  font-size: 50px;
+  padding: 15px 0 15px;
+}
+/* Contact area style  */
+
+#contact_area {
+  padding: var(--padding_lg);
+  background: var(--light_purple);
+}
+#contact_area .container.title {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#contact_area h3 {
+  font-size: 35px;
+}
+
+#contact_area .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact_form {
+  flex-basis: 48%;
+}
+.contact_form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.contact_form textarea {
+  min-height: 150px;
+}
+.contact_form input[type="submit"] {
+  width: 250px;
+  background: var(--purple);
+  border: 0;
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact_form input[type="submit"]:hover {
+  background: #262626;
+}
+.contact_map {
+  flex-basis: 50%;
+}
+.contact_map iframe {
+  width: 100%;
+  border: 0;
+  height: 652px;
+}
+/* Footer Area Style */
+#footer_area {
+  background: var(--purple);
+  padding: 20px 0;
+  text-align: center;
+}
+#footer_area p {
+  margin: 0;
+  color: #fff;
+}

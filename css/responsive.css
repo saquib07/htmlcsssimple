@@ -1,0 +1,70 @@
+@media only screen and (min-width: 200px) and (max-width: 520px) {
+  :root {
+    --padding_lg: 25px 10px;
+    --padding_sm: 10px 10px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .contact_info {
+    flex-basis: 100%;
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact_info p {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .social_area ul {
+    margin: 0;
+    padding: 5px 0 10px;
+    list-style: none;
+    text-align: center;
+  }
+  .logo_area {
+    padding: 10px 0;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  #main_menu {
+    display: none;
+  }
+  .slicknav_menu {
+    background: none;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+  }
+  .banner_image {
+    flex-basis: 100%;
+    order: 1;
+  }
+  .banner_text {
+    flex-basis: 100%;
+    order: 2;
+    padding-top: 20px;
+  }
+  .banner_text h2 {
+    font-size: 30px;
+  }
+  .child_service {
+    padding: 20px;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  #contact_area .container {
+    display: flex;
+    align-items: unset;
+    justify-content: stretch;
+  }
+  .contact_map {
+    flex-basis: 100%;
+  }
+  .contact_map iframe {
+    height: 200px;
+  }
+}

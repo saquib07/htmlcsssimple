@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Simple Website One</title>
+    <!-- Google Fonts Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playfair+Display:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awsome CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Mobile Menu CSS  -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Responsive Design  -->
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+      <!-- Header Area Structure -->
+    <header id="header-area">
+      <div id="top_header_area">
+        <div class="container">
+          <div class="contact_info">
+            <p><i class="fa fa-phone"></i> +91 222 333 4455</p>
+            <p><i class="fa fa-envelope"></i> info@yourdomain.com</p>
+          </div>
+          <div class="social_area">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="main_head">
+        <div class="container">
+          <div class="logo_area">
+            <a href="index.html"
+              ><img
+                src="img/Demo_Logo.png"
+                alt="HTML Project One"
+                width="40px"
+                height="40px "
+            /></a>
+          </div>
+          <nav id="main_menu">
+            <ul id="nav">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Service</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner Area Structure  -->
+    <section id="banner_area">
+        <div class="container">
+            <div class="banner_text">
+                <h2>Learning Code is Fun.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quasi, voluptatibus delectus ut neque quam quod cum perferendis id ullam, omnis eligendi
+                mollitia pariatur dolorem doloribus facilis itaque sequi? Explicabo?</p>
+                <p><a href="#" class="btn">Learn More</a></p>
+            </div>
+            <div class="banner_image">
+                <img src="img/picture_1.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area Structure  -->
+    <section id="service_area">
+        <div class="container title">
+            <h2>Our Services</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quibusdam.</p>
+        </div>
+        <div class="container">
+            <div class="child_service">
+
+            <i class="fas fa-laptop-code"></i>
+            <h3>Learn Code</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+            quaerat vitae voluptate eius ad consequuntur velit et ipsam tempore placeat.</p>
+            <p><a href="#" class="btn">Read More</a></p>
+            </div>
+            <div class="child_service">
+
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h3>Learn Code</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                quaerat vitae voluptate eius ad consequuntur velit et ipsam tempore placeat.</p>
+                <p><a href="#" class="btn">Read More</a></p>
+            </div>
+            <div class="child_service">
+
+                <i class="fa-solid fa-scale-balanced"></i>
+                <h3>Learn Code</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                quaerat vitae voluptate eius ad consequuntur velit et ipsam tempore placeat.</p>
+                <p><a href="#" class="btn">Read More</a></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Area Structure  -->
+    <section id="contact_area">
+        <div class="container title">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, optio!</p>
+        </div>
+        <div class="container">
+            <div class="contact_form">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Your Name">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <label for="phone">Phone</label>
+                    <input type="number" placeholder="Enter Your Contact Number">
+                    <label for="subject">Your Subject</label>
+                    <input type="text" placeholder="Your Subject">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" placeholder="Enter Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9973874144!2d77.35074421903857!3d12.95384772557775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1647876230944!5m2!1sen!2sin"  allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area Structure  -->
+    <footer id="footer_area">
+        <div class="container">
+            <p>Copyright 2022. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
